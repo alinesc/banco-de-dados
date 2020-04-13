@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9D08CA97-F0E8-ABB6-C4E8-CCA6467FDFF2" name="T_SPV_NOTA">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-12 00:11:51 UTC</createdTime>
+<ownerDesignName>MER_LOGICO_PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="FB3E2F84-C2DE-7F22-69B7-7FAF6CD675D7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_nota" id="613E0A28-6F1A-06CA-3439-DB48128F8651">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-12 00:12:12 UTC</createdTime>
+<ownerDesignName>MER_LOGICO_PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="FB3E2F84-C2DE-7F22-69B7-7FAF6CD675D7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_emissao" id="135CEB73-9D61-0AF0-1C1C-C2B599ED9C39">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-12 00:12:27 UTC</createdTime>
+<ownerDesignName>MER_LOGICO_PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="FB3E2F84-C2DE-7F22-69B7-7FAF6CD675D7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_saida" id="5971927D-EFE2-0396-6D74-69D71D0F03D6">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-12 00:12:38 UTC</createdTime>
+<ownerDesignName>MER_LOGICO_PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="FB3E2F84-C2DE-7F22-69B7-7FAF6CD675D7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_total" id="6056FC13-19A2-D973-4A63-7D6DFCA9F841">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-12 00:12:48 UTC</createdTime>
+<ownerDesignName>MER_LOGICO_PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="FB3E2F84-C2DE-7F22-69B7-7FAF6CD675D7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_desconto" id="B890C6E9-85D9-244C-0B54-59CB1BC278A1">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-12 00:12:55 UTC</createdTime>
+<ownerDesignName>MER_LOGICO_PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="FB3E2F84-C2DE-7F22-69B7-7FAF6CD675D7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="36044C29-4B45-0833-5943-76C055D53AC6" name="T_SPV_NOTA PK">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-12 00:12:24 UTC</createdTime>
+<ownerDesignName>MER_LOGICO_PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="FB3E2F84-C2DE-7F22-69B7-7FAF6CD675D7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>613E0A28-6F1A-06CA-3439-DB48128F8651</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="69296CBA-7A5B-DDA4-B5D4-F4EEAA3BA841" name="T_SAA_PROFESSOR">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:23:00 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_matricula_prof" id="AAA02222-2787-C8A6-A707-092DA1CAF7BE">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:23:13 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_professor" id="6AF1E001-9530-E4FB-A7B7-84958864CA66">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:23:30 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_apelido" id="61ED78EF-F46F-830A-893B-8E03B295A847">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:23:43 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_genero" id="39BFEFF9-7B11-B5CD-AD11-545746AD8D15">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:23:57 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="DF033ECB-5D5B-CAF6-C0C9-AFF6C213A8FC">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:24:09 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cpf" id="1CF106A5-8F0D-C446-80F8-3A55F10BD9D3">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:24:19 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_rg" id="1D2E3208-00CB-2CBB-79AF-C9F7291964FC">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:24:21 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_endereco" id="32DA8D38-E8C5-6661-73CA-0C1074E8F0D8">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:24:52 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_ddd" id="64FD31AE-06BA-8122-E527-657982640CAF">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:50:18 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="6CC23D29-E89A-C34A-8E0A-E83B0E331B3F">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:25:02 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_email" id="0EA361FA-5BA5-40DC-4216-4E2C11263739">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:25:14 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DA31EA0D-A654-4A89-C745-BA54AFF41773" name="T_SAA_PROFESSOR PK">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:23:28 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AAA02222-2787-C8A6-A707-092DA1CAF7BE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

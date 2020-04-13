@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3F207611-95F1-D84E-D710-79D5081ED28E" name="SPV_UNID_COMERCIAL">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-12 00:08:42 UTC</createdTime>
+<ownerDesignName>MER_LOGICO_PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="FB3E2F84-C2DE-7F22-69B7-7FAF6CD675D7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_unidade" id="0DA30076-F18B-9610-950D-3006791C38F3">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-12 00:09:16 UTC</createdTime>
+<ownerDesignName>MER_LOGICO_PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="FB3E2F84-C2DE-7F22-69B7-7FAF6CD675D7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_descricao" id="3AB33048-B941-29F3-25D9-54AB23C842ED">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-12 00:09:36 UTC</createdTime>
+<ownerDesignName>MER_LOGICO_PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="FB3E2F84-C2DE-7F22-69B7-7FAF6CD675D7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sg_sigla" id="36FA7EA9-6583-92FD-5F75-B7BBD0046D8A">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-12 00:09:46 UTC</createdTime>
+<ownerDesignName>MER_LOGICO_PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="FB3E2F84-C2DE-7F22-69B7-7FAF6CD675D7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="853B6DE2-E213-7625-2B4C-7E378ACEEEED" name="SPV_UNID_COMERCIAL PK">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-12 00:09:34 UTC</createdTime>
+<ownerDesignName>MER_LOGICO_PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="FB3E2F84-C2DE-7F22-69B7-7FAF6CD675D7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0DA30076-F18B-9610-950D-3006791C38F3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

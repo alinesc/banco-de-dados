@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C481F95A-AE8F-88F9-8F08-BA8B16DCBDFC" name="T_SAA_AULA">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:41:43 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="sq_aula" id="53E447F5-28FF-796E-8D59-582BEE9FA3EE">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:41:54 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_nivel" id="52DFD61D-82A7-2AA4-6BDF-2F26D00807B1">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:42:08 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sq_dia" id="E5BFF726-D9DF-6828-5991-78E8AB920583">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:42:17 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_horario_inicio" id="00831FFD-903E-ABD6-4D69-6E5B7B8BF8DE">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:42:36 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_horario_termino" id="9C20B1BA-5A3D-E2A7-250C-B628C6D8CCC7">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:42:48 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_sala" id="1AB58554-1443-9B0C-15EB-42D8A709BB56">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:42:55 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8B8806DA-1A92-4CA6-1E15-05E649E96F8B" name="T_SAA_AULA PK">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:42:04 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>53E447F5-28FF-796E-8D59-582BEE9FA3EE</attributeRef>
+<attributeRef>1AB58554-1443-9B0C-15EB-42D8A709BB56</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

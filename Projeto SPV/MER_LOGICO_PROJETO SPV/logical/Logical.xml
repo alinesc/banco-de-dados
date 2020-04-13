@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="BA6473E1-24D6-3B53-9296-0BD13500FAE4" mainViewID="F2667D10-E6C0-6262-C0C0-B870FCA6F947">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-12 00:02:13 UTC</createdTime>
+<ownerDesignName>MER_LOGICO_PROJETO SPV</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

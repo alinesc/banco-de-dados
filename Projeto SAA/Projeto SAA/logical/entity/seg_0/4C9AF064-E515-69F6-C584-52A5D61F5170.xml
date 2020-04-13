@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4C9AF064-E515-69F6-C584-52A5D61F5170" name="T_SAA_MATRICULA">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:17:11 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_matricula" id="ECD55306-0867-28CB-78A4-C2642689FAFB">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:17:27 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_matricula" id="A57DB650-9EDE-7502-9924-D1C76363A008">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:17:38 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_plano" id="F543931B-8A42-7F23-8B8A-D71C0C61DF0E">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:17:48 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_cancelamento" id="CB9095B7-D66A-FB87-80B0-E9BA24F34DA1">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:18:00 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_motivo" id="53ACE184-6C89-6618-3837-B29171F35CCC">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:18:31 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="06713D76-5E3F-2F04-060A-136601D6BF2B" name="T_SAA_MATRICULA PK">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:17:36 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ECD55306-0867-28CB-78A4-C2642689FAFB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E6CFE001-CA52-9A09-D1EB-0C242139ABF2" name="T_SAA_CONTRATO">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:34:34 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_contrato" id="0406A467-C71F-CFE7-6EB6-FB4F47EFF961">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:34:51 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_matricula" id="B1E274F5-274B-2D7F-381A-FA50E10D8E51">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:35:41 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_assinatura" id="26AD1DF3-775F-48BE-8449-676E3FFC62AE">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:35:50 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_inicio" id="0EC0E752-9CBC-174A-1FCE-B17C3FC7BB08">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:35:58 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_fim" id="62D218E0-23C8-4CF6-B7B0-DFA457D1922D">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:36:06 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_desconto" id="2078019D-1F94-3452-47CB-FC3970594082">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:36:15 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_info" id="96E6F1E9-F7C5-C730-D6A3-E56DF4750219">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:36:44 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B436BD6F-547D-040A-4989-200697415287" name="T_SAA_CONTRATO PK">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:35:39 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0406A467-C71F-CFE7-6EB6-FB4F47EFF961</attributeRef>
+<attributeRef>B1E274F5-274B-2D7F-381A-FA50E10D8E51</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

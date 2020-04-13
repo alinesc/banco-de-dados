@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6361F93C-437D-B9CD-8728-6CE52250F1C0" name="T_SIP_DEPTO">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-11 22:44:19 UTC</createdTime>
+<ownerDesignName>MER_LOGICO_PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="DE1EB449-9E2E-4524-0FE6-44C305D5A463" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_depto" id="C247C13B-2554-D939-6141-BF690A7B828E">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-11 22:48:34 UTC</createdTime>
+<ownerDesignName>MER_LOGICO_PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="DE1EB449-9E2E-4524-0FE6-44C305D5A463" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_depto" id="5C09BC48-E056-B6D8-558F-B9380D6791E3">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-11 22:52:13 UTC</createdTime>
+<ownerDesignName>MER_LOGICO_PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="DE1EB449-9E2E-4524-0FE6-44C305D5A463" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_sigla" id="84A880EE-DE40-CC45-0D27-6200701ADDE0">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-11 22:52:44 UTC</createdTime>
+<ownerDesignName>MER_LOGICO_PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="DE1EB449-9E2E-4524-0FE6-44C305D5A463" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3A951222-C468-784B-1D3C-0C52914DC46A" name="T_SIP_DEPTO PK">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-11 22:50:28 UTC</createdTime>
+<ownerDesignName>MER_LOGICO_PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="DE1EB449-9E2E-4524-0FE6-44C305D5A463" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C247C13B-2554-D939-6141-BF690A7B828E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

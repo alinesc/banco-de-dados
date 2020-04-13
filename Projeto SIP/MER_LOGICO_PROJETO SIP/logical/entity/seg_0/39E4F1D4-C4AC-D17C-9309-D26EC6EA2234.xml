@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="39E4F1D4-C4AC-D17C-9309-D26EC6EA2234" name="T_SIP_FUNCIONARIO">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-11 23:00:24 UTC</createdTime>
+<ownerDesignName>MER_LOGICO_PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="DE1EB449-9E2E-4524-0FE6-44C305D5A463" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nm_funcionario" id="66524CDA-E090-575B-7FB2-8EBD72D955A1">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-11 23:00:50 UTC</createdTime>
+<ownerDesignName>MER_LOGICO_PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="DE1EB449-9E2E-4524-0FE6-44C305D5A463" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_matricula" id="E3BE9D72-10EC-E245-C167-977513B9DAE2">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-11 23:01:06 UTC</createdTime>
+<ownerDesignName>MER_LOGICO_PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="DE1EB449-9E2E-4524-0FE6-44C305D5A463" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_admissao" id="B986C795-CE9B-304E-8501-746DC42F7CEE">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-11 23:01:31 UTC</createdTime>
+<ownerDesignName>MER_LOGICO_PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="DE1EB449-9E2E-4524-0FE6-44C305D5A463" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nasc" id="90E3B27A-1CAC-448A-DC0F-38303AAC8846">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-11 23:01:52 UTC</createdTime>
+<ownerDesignName>MER_LOGICO_PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="DE1EB449-9E2E-4524-0FE6-44C305D5A463" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_salario" id="A4603AD3-63AF-F8DC-CF2E-4CE47F045CC2">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-11 23:02:08 UTC</createdTime>
+<ownerDesignName>MER_LOGICO_PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="DE1EB449-9E2E-4524-0FE6-44C305D5A463" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_endereco" id="8AB949D4-EC64-2AB7-2245-FA0463BC51DD">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-11 23:02:19 UTC</createdTime>
+<ownerDesignName>MER_LOGICO_PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="DE1EB449-9E2E-4524-0FE6-44C305D5A463" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ABB47030-568D-BA91-F11B-93499F06B1E2" name="T_SIP_FUNCIONARIO PK">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-11 23:01:17 UTC</createdTime>
+<ownerDesignName>MER_LOGICO_PROJETO SIP</ownerDesignName>
+<engineerTo>
+<item key="DE1EB449-9E2E-4524-0FE6-44C305D5A463" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E3BE9D72-10EC-E245-C167-977513B9DAE2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B03ABF7E-08D9-EFA3-83AF-647E98A6760A" name="T_SAA_FREQUENCIA">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:43:27 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="sq_frequencia" id="B559CD7B-9F0C-D08B-95B7-92460BBB7720">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:43:39 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sq_aula" id="634487F8-0CE3-93CA-2C43-46A0917BDADD">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:43:51 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_aula" id="EF236589-55E9-1450-5EA7-6DF0E625FC36">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:43:59 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_quantidade" id="5A0C8C09-AFEF-3262-A13D-FF807B735DE4">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:44:07 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="84648BC6-01C5-656D-A82F-681EFFE2C1F7" name="T_SAA_FREQUENCIA PK">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:43:49 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B559CD7B-9F0C-D08B-95B7-92460BBB7720</attributeRef>
+<attributeRef>634487F8-0CE3-93CA-2C43-46A0917BDADD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

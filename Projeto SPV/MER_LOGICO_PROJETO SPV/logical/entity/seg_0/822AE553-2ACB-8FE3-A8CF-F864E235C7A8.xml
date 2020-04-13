@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="822AE553-2ACB-8FE3-A8CF-F864E235C7A8" name="T_SPV_CODIGO_FISCAL">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-12 00:10:05 UTC</createdTime>
+<ownerDesignName>MER_LOGICO_PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="FB3E2F84-C2DE-7F22-69B7-7FAF6CD675D7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_codigo_fiscal" id="685B3F7A-7210-BD3E-30C8-2532D07CA312">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-12 00:10:31 UTC</createdTime>
+<ownerDesignName>MER_LOGICO_PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="FB3E2F84-C2DE-7F22-69B7-7FAF6CD675D7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_tipo" id="CD04C4BB-FF04-0630-CF86-37D8E81DF5F2">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-12 00:10:52 UTC</createdTime>
+<ownerDesignName>MER_LOGICO_PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="FB3E2F84-C2DE-7F22-69B7-7FAF6CD675D7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_nat_operacao" id="09E1C523-A784-5349-237E-F20E633E620A">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-12 00:11:01 UTC</createdTime>
+<ownerDesignName>MER_LOGICO_PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="FB3E2F84-C2DE-7F22-69B7-7FAF6CD675D7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_desc_nat_operacao" id="7339B5C0-F1A9-376B-9287-34BFBB4AA559">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-12 00:11:19 UTC</createdTime>
+<ownerDesignName>MER_LOGICO_PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="FB3E2F84-C2DE-7F22-69B7-7FAF6CD675D7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4CC0855C-4251-6751-9A96-566AB8F7E0E9" name="T_SPV_CODIGO_FISCAL PK">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-12 00:10:39 UTC</createdTime>
+<ownerDesignName>MER_LOGICO_PROJETO SPV</ownerDesignName>
+<engineerTo>
+<item key="FB3E2F84-C2DE-7F22-69B7-7FAF6CD675D7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>685B3F7A-7210-BD3E-30C8-2532D07CA312</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

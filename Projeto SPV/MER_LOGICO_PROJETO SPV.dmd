@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MER_LOGICO_PROJETO SPV" id="9F54E899-69F1-04A0-2C38-F37B403F2EB4" version="3.5">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-12 00:02:13 UTC</createdTime>
+<ownerDesignName>MER_LOGICO_PROJETO SPV</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9F54E899-69F1-04A0-2C38-F37B403F2EB4</designId>
+</OSDM_Design>

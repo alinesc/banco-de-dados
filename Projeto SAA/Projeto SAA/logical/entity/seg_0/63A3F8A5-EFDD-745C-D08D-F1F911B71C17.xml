@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="63A3F8A5-EFDD-745C-D08D-F1F911B71C17" name="T_SAA_HISTORICO">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:39:00 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_reajuste" id="A1B4F1FA-61D6-68B8-0795-58F91F762756">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:39:15 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_plano" id="819FF89F-0B34-E1D0-473C-71B1292307D8">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:39:24 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_validade" id="D4A05F74-1339-30DE-FD16-C2F323E4331E">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:39:34 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_reajuste" id="1D068238-0DBD-6203-8035-1BD69790A8DA">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:39:42 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_preco_tot" id="397F7E4B-C84D-83B0-D648-153246EF76A5">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:39:53 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DAAEFF0C-188F-9208-0521-CD76B8D0601E" name="T_SAA_HISTORICO PK">
+<createdBy>miss_</createdBy>
+<createdTime>2020-03-20 17:39:23 UTC</createdTime>
+<ownerDesignName>Projeto SAA</ownerDesignName>
+<engineerTo>
+<item key="EC2425CE-B3C1-E19C-A617-0A9F33F5518A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A1B4F1FA-61D6-68B8-0795-58F91F762756</attributeRef>
+<attributeRef>819FF89F-0B34-E1D0-473C-71B1292307D8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
